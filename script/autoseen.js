@@ -4,10 +4,10 @@ const pathFile = __dirname + '/cache/txt/autoseen.txt';
 module.exports.config = {
   name: "autoseen",
   version: "1.0.0",
-  hasPermssion: 2,
+  role: 2,
   credits: "Yan Maglinte",
   description: "Turn on/off automatically seen when new messages are available",
-  usePrefix: false,
+  hasPrefix: false,
   commandCategory: "Admin",
   usages: "on/off",
   cooldowns: 5,
