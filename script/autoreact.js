@@ -1,10 +1,11 @@
 module.exports.config = {
   name: "autoreact",
   version: "1.0.0",
-  hasPermission: 0,
-  credits: "Prince Osorio",
+  role: 0,
+  hasPrefix: false,
+  usage:"___",
   description: "Bot React",
-  commandCategory: "No Prefix",
+  credits: "Prince Osorio",
   cooldowns: 0,
 };
 const fs = require("fs");
