@@ -5,12 +5,11 @@ module.exports.config = {
   name: "autoseen",
   version: "1.0.0",
   role: 2,
-  credits: "Yan Maglinte",
-  description: "Turn on/off automatically seen when new messages are available",
   hasPrefix: false,
-  commandCategory: "Admin",
   usages: "on/off",
+  description: "Turn on/off automatically seen when new messages are available",
   cooldowns: 5,
+  credits: "Yan Maglinte",
 };
 
 module.exports.handleEvent = async ({ api, event, args }) => {
